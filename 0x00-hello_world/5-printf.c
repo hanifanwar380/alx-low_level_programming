@@ -1,7 +1,10 @@
 /*
- * File: 5-printf.c
- * Auth: William M Mitiku
- * /
+ *
+ *  * File: 5-printf.c
+ *
+ *   * Auth: Hanif
+ *
+ *    */
 
 
 
@@ -10,13 +13,16 @@
 
 
 /**
- * main - Prints "with proper grammar, but the outcome is
- *                a piece of art," followed by a new line.
  *
- *    
- * Return: Always 0.
+ *  * main - Prints "with proper grammar, but the outcome is
  *
- */
+ *   *                a piece of art," followed by a new line.
+ *
+ *    *
+ *
+ *     * Return: Always 0.
+ *
+ *      */
 
 int main(void)
 
@@ -26,5 +32,6 @@ int main(void)
 
 
 
-		return (0)
+			return (0);
 
+}
