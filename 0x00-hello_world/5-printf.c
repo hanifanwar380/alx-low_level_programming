@@ -1,10 +1,8 @@
-
-
 /*
  *
  *  * File: 5-printf.c
  *
- *   * Auth: William M Mitiku
+ *   * Auth: Hanif
  *
  *    */
 
@@ -34,5 +32,6 @@ int main(void)
 
 
 
-			return (0)
+			return (0);
 
+}
