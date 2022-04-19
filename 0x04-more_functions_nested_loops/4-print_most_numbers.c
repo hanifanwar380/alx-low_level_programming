@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers -  checks for checks for a digit (0 through 9).
+ * print_most_numbers -  prints except 2 and 4..
  *
  * Return: Always 0.
  */
@@ -13,11 +13,13 @@ a = 0;
 
 for (a = 0; a < 10; a++)
 {
+
 if ( a == 2 || a == 4)
 
 a++;
 
 _putchar(a + '0')
+
 }
 _putchar ('\n');
 
