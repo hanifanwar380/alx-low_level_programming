@@ -12,8 +12,8 @@ int a;
 a = 0;
 
 for (a = 48; a < 58; a++)
-{
+
 _putchar(a + '0');
-}
+
 _putchar('\n');
 }
