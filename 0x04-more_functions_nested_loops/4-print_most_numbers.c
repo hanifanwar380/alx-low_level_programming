@@ -19,7 +19,7 @@ if ( a == 2 || a == 4)
 
 a++;
 
-_putchar(a + '0')
+_putchar(a + '0');
 
 }
 _putchar ('\n');
