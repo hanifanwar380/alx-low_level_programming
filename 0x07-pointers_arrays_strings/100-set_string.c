@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * set_string - redirect.
  * @s: double pointer to address
