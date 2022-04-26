@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_chessboard - print a chessboard.
  * @a: source matrix
