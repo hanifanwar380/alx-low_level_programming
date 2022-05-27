@@ -1,6 +1,6 @@
 /*
  * File: 2-add_nodeint.c
- * Auth: Brennan D Baraban
+ * Auth: Hanif Miyanji
  */
 
 #include "lists.h"
@@ -15,6 +15,7 @@
  * Return: If the function fails - NULL.
  *         Otherwise - the address of the new element.
  */
+
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
