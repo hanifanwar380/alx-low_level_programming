@@ -12,6 +12,7 @@
  *
  * Return: 0 if the first n bytes of s1 and s2 are equal, otherwise non-zero
  */
+
 int _strncmp(const char *s1, const char *s2, size_t n)
 {
 	for ( ; n && *s1 && *s2; --n, ++s1, ++s2)
@@ -33,6 +34,7 @@ int _strncmp(const char *s1, const char *s2, size_t n)
  * _close - close a file descriptor and print an error message upon failure
  * @fd: the file descriptor to close
  */
+
 void _close(int fd)
 {
 	if (close(fd) != -1)
@@ -47,6 +49,7 @@ void _close(int fd)
  * @buf: the buffer to write to
  * @count: the number of bytes to read
  */
+
 void _read(int fd, char *buf, size_t count)
 {
 	if (read(fd, buf, count) != -1)
@@ -60,6 +63,7 @@ void _read(int fd, char *buf, size_t count)
  * elf_magic - print ELF magic
  * @buffer: the ELF header
  */
+
 void elf_magic(const unsigned char *buffer)
 {
 	unsigned int i;
@@ -82,6 +86,7 @@ void elf_magic(const unsigned char *buffer)
  *
  * Return: bit mode (32 or 64)
  */
+
 size_t elf_class(const unsigned char *buffer)
 {
 	printf("  %-34s ", "Class:");
@@ -106,6 +111,7 @@ size_t elf_class(const unsigned char *buffer)
  *
  * Return: 1 if big endian, otherwise 0
  */
+
 int elf_data(const unsigned char *buffer)
 {
 	printf("  %-34s ", "Data:");
