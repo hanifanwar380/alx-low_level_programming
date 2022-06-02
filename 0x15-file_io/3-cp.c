@@ -8,6 +8,7 @@
   *
   * Return: ...
   */
+
 int main(int argc, char **argv)
 {
 	if (argc != 3)
@@ -27,6 +28,7 @@ int main(int argc, char **argv)
   *
   * Return: ...
   */
+
 void copy_file(const char *src, const char *dest)
 {
 	int ofd, tfd, readed;
